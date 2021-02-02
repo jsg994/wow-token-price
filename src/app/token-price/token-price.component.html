@@ -1,0 +1,17 @@
+  
+<div class="backgroundClass" [style.background-image]="'url(./assets/wowWallpaper.jpg)'">
+<mat-toolbar class="toolbar" color="#F8F1E5">
+    <span class="title-center">WoW Token Price (US)</span>
+</mat-toolbar>
+<div class="main-div">
+<mat-card class="mainCard">
+    <mat-spinner style="margin:0 auto;" class="spinner" color="#F9BA32" *ngIf="this.loading"></mat-spinner>
+  <mat-card *ngIf="showCard" class="priceCard">
+      <div><b>Gold</b> - {{ gold }} <b>Silver</b> - {{ silver }} <b>Copper</b> - {{ copper }}</div>
+      <div><b>Last Updated </b>- {{ momentString }}</div>
+  </mat-card>
+  <button mat-raised-button color="#F8F1E5" class="updateBtn" (click)="callTokenPriceClick()">Click For The Most Up To Date Price</button>
+  <div *ngIf="showCard" class="btn-explination">If nothing changes when you click the button, that means you have the most up to date price available from the Blizzard API!</div>
+</mat-card>
+</div>
+</div>

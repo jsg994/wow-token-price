@@ -1,0 +1,53 @@
+.updateBtn {
+    margin-top: 20px;
+    margin-left: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+}
+
+.mainCard {
+    background-color: #2f3131;
+    min-width: 800px;
+    max-height: 300px;
+    position: relative;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+}
+
+.priceCard {
+    background-color: #F9BA32;
+    width: 800px;
+    max-height: 175px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+}
+
+.main-div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .toolbar {
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    min-height: 200px;
+  }
+
+  .title-center {
+    margin: 0 auto;
+  }
+
+  .backgroundClass {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .btn-explination {
+      color: #F9BA32
+  }
+
+

@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  BNET_ID: "2d387b635e2b4f688257c72f349a4103",
+  BNET_SECRET: "LfrsP2NFGacma63EGqjcJBOeIzTsknFu",
+  PRICE_API: "https://us.api.blizzard.com/data/wow/token/index?namespace=dynamic-us&locale=en_US&",
+  TOKEN_API: "https://us.battle.net/oauth/token?"
 };
 
 /*
